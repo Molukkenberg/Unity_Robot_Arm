@@ -2,7 +2,7 @@
 
 public class RotateZ : MonoBehaviour
 {
-    // Rotation des Roboterarms um seine lokale z-Achse mit dem Winkel β
+    // Robot-Arm rotation of forearm around its local z axis.
     void Update()
     {
         if (Input.GetKey("up")) 
