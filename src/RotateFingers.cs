@@ -10,6 +10,7 @@ public class RotateFingers : MonoBehaviour
     private float minLocalRotY = -.14f;
     private int maxLocalRotY = 0;
 
+    // Rotation of finger and thumb inward and outward.
     void Update()
     {
         if (Fingers !=null && Thumb != null)
