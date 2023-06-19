@@ -3,7 +3,8 @@ using UnityEngine;
 public class RotateUnderArm : MonoBehaviour
 {
     private readonly float maxElbowRot = .7f;
-    
+
+    // Folding in/out of forearm.
     void Update()
     {
         if (Input.GetKey("w"))
