@@ -2,7 +2,7 @@
 
 public class RotateXZ : MonoBehaviour
 {
-    // Rotation des Roboterarms in der xz-Ebene mit dem Winkel α
+    // Robot-Arm rotation in xz-plain
     void Update()
     {
         if (Input.GetKey("left"))
